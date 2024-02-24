@@ -1,0 +1,32 @@
+{
+  "name": "jhservice/base64",
+  "description": "JHService Base64",
+  "type": "library",
+  "keywords": [
+    "jhservice",
+    "base64"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jalal Hosseinian",
+      "email": "mrbugminer@gmail.com"
+    }
+  ],
+  "support": {
+    "email": "mrbugminer@gmail.com"
+  },
+  "require": {
+    "jhservice/singleton": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JHService\\Base64\\": "src/"
+    },
+    "files": [
+      "src/Helpers.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
